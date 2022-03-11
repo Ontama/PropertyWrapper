@@ -8,13 +8,21 @@
 import SwiftUI
 
 struct EnvironmentSample: View {
+    @Environment(\.colorScheme) var colorScheme: ColorScheme
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        if colorScheme == .dark {
+            Text("dark mode").foregroundColor(.red)
+        } else if colorScheme == .light {
+            Text("light mode").foregroundColor(.red)
+        } else {
+            Text("").foregroundColor(.red)
+        }
     }
 }
 
 struct EnvironmentSample_Previews: PreviewProvider {
     static var previews: some View {
         EnvironmentSample()
+            .environment(\.colorScheme, .dark)
     }
 }

@@ -8,13 +8,20 @@
 import SwiftUI
 
 struct ChildView: View {
+    @Binding var counter: Int
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button(action: {
+            counter += 1
+        }, label: {
+            Text("\(counter)")
+                .font(.title)
+        })
+            .border(Color.red)
     }
 }
 
-struct ChildView_Previews: PreviewProvider {
-    static var previews: some View {
-        ChildView()
-    }
-}
+//struct ChildView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ChildView(counter: 0)
+//    }
+//}

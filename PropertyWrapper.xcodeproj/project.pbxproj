@@ -17,6 +17,24 @@
 		EAC3550D27DAF78A009E192B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC354E327DAF789009E192B /* ContentView.swift */; };
 		EAC3550E27DAF78A009E192B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAC354E427DAF789009E192B /* Assets.xcassets */; };
 		EAC3550F27DAF78A009E192B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAC354E427DAF789009E192B /* Assets.xcassets */; };
+		EAC3551F27DAF7F4009E192B /* ParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC3551E27DAF7F4009E192B /* ParentView.swift */; };
+		EAC3552027DAF7F4009E192B /* ParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC3551E27DAF7F4009E192B /* ParentView.swift */; };
+		EAC3552227DAFA60009E192B /* ChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC3552127DAFA60009E192B /* ChildView.swift */; };
+		EAC3552327DAFA60009E192B /* ChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC3552127DAFA60009E192B /* ChildView.swift */; };
+		EAC3552527DB0151009E192B /* EnvironmentSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC3552427DB0151009E192B /* EnvironmentSample.swift */; };
+		EAC3552627DB0151009E192B /* EnvironmentSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC3552427DB0151009E192B /* EnvironmentSample.swift */; };
+		EAC3552827DB0825009E192B /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC3552727DB0825009E192B /* DataSource.swift */; };
+		EAC3552927DB0825009E192B /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC3552727DB0825009E192B /* DataSource.swift */; };
+		EAC3552B27DB08B5009E192B /* StateObjectCounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC3552A27DB08B5009E192B /* StateObjectCounterView.swift */; };
+		EAC3552C27DB08B5009E192B /* StateObjectCounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC3552A27DB08B5009E192B /* StateObjectCounterView.swift */; };
+		EAC3552E27DB0904009E192B /* ObservedObjcetCounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC3552D27DB0904009E192B /* ObservedObjcetCounterView.swift */; };
+		EAC3552F27DB0904009E192B /* ObservedObjcetCounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC3552D27DB0904009E192B /* ObservedObjcetCounterView.swift */; };
+		EAC3553127DB0944009E192B /* SwitchColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC3553027DB0944009E192B /* SwitchColorView.swift */; };
+		EAC3553227DB0944009E192B /* SwitchColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC3553027DB0944009E192B /* SwitchColorView.swift */; };
+		EAC3553427DB0C5A009E192B /* ObservedObjectTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC3553327DB0C5A009E192B /* ObservedObjectTestView.swift */; };
+		EAC3553527DB0C5A009E192B /* ObservedObjectTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC3553327DB0C5A009E192B /* ObservedObjectTestView.swift */; };
+		EAC3553927DB0CA8009E192B /* ObservedObjectTestChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC3553827DB0CA8009E192B /* ObservedObjectTestChildView.swift */; };
+		EAC3553A27DB0CA8009E192B /* ObservedObjectTestChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC3553827DB0CA8009E192B /* ObservedObjectTestChildView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +67,15 @@
 		EAC3550227DAF78A009E192B /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAC3550627DAF78A009E192B /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		EAC3550827DAF78A009E192B /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		EAC3551E27DAF7F4009E192B /* ParentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentView.swift; sourceTree = "<group>"; };
+		EAC3552127DAFA60009E192B /* ChildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildView.swift; sourceTree = "<group>"; };
+		EAC3552427DB0151009E192B /* EnvironmentSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentSample.swift; sourceTree = "<group>"; };
+		EAC3552727DB0825009E192B /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		EAC3552A27DB08B5009E192B /* StateObjectCounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObjectCounterView.swift; sourceTree = "<group>"; };
+		EAC3552D27DB0904009E192B /* ObservedObjcetCounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedObjcetCounterView.swift; sourceTree = "<group>"; };
+		EAC3553027DB0944009E192B /* SwitchColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchColorView.swift; sourceTree = "<group>"; };
+		EAC3553327DB0C5A009E192B /* ObservedObjectTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedObjectTestView.swift; sourceTree = "<group>"; };
+		EAC3553827DB0CA8009E192B /* ObservedObjectTestChildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedObjectTestChildView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +126,12 @@
 			children = (
 				EAC354E227DAF789009E192B /* PropertyWrapperApp.swift */,
 				EAC354E327DAF789009E192B /* ContentView.swift */,
+				EAC3551E27DAF7F4009E192B /* ParentView.swift */,
+				EAC3552427DB0151009E192B /* EnvironmentSample.swift */,
+				EAC3552127DAFA60009E192B /* ChildView.swift */,
+				EAC3552727DB0825009E192B /* DataSource.swift */,
+				EAC3553727DB0C78009E192B /* SwitchColor */,
+				EAC3553B27DB0D5A009E192B /* ObservedObjectTest */,
 				EAC354E427DAF789009E192B /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -139,6 +172,25 @@
 				EAC3550827DAF78A009E192B /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		EAC3553727DB0C78009E192B /* SwitchColor */ = {
+			isa = PBXGroup;
+			children = (
+				EAC3552A27DB08B5009E192B /* StateObjectCounterView.swift */,
+				EAC3552D27DB0904009E192B /* ObservedObjcetCounterView.swift */,
+				EAC3553027DB0944009E192B /* SwitchColorView.swift */,
+			);
+			path = SwitchColor;
+			sourceTree = "<group>";
+		};
+		EAC3553B27DB0D5A009E192B /* ObservedObjectTest */ = {
+			isa = PBXGroup;
+			children = (
+				EAC3553327DB0C5A009E192B /* ObservedObjectTestView.swift */,
+				EAC3553827DB0CA8009E192B /* ObservedObjectTestChildView.swift */,
+			);
+			path = ObservedObjectTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,8 +351,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAC3552827DB0825009E192B /* DataSource.swift in Sources */,
+				EAC3553127DB0944009E192B /* SwitchColorView.swift in Sources */,
 				EAC3550C27DAF78A009E192B /* ContentView.swift in Sources */,
+				EAC3553427DB0C5A009E192B /* ObservedObjectTestView.swift in Sources */,
+				EAC3552227DAFA60009E192B /* ChildView.swift in Sources */,
+				EAC3553927DB0CA8009E192B /* ObservedObjectTestChildView.swift in Sources */,
+				EAC3551F27DAF7F4009E192B /* ParentView.swift in Sources */,
+				EAC3552527DB0151009E192B /* EnvironmentSample.swift in Sources */,
 				EAC3550A27DAF78A009E192B /* PropertyWrapperApp.swift in Sources */,
+				EAC3552E27DB0904009E192B /* ObservedObjcetCounterView.swift in Sources */,
+				EAC3552B27DB08B5009E192B /* StateObjectCounterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,8 +369,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAC3552927DB0825009E192B /* DataSource.swift in Sources */,
+				EAC3553227DB0944009E192B /* SwitchColorView.swift in Sources */,
 				EAC3550D27DAF78A009E192B /* ContentView.swift in Sources */,
+				EAC3553527DB0C5A009E192B /* ObservedObjectTestView.swift in Sources */,
+				EAC3552327DAFA60009E192B /* ChildView.swift in Sources */,
+				EAC3553A27DB0CA8009E192B /* ObservedObjectTestChildView.swift in Sources */,
+				EAC3552027DAF7F4009E192B /* ParentView.swift in Sources */,
+				EAC3552627DB0151009E192B /* EnvironmentSample.swift in Sources */,
 				EAC3550B27DAF78A009E192B /* PropertyWrapperApp.swift in Sources */,
+				EAC3552F27DB0904009E192B /* ObservedObjcetCounterView.swift in Sources */,
+				EAC3552C27DB08B5009E192B /* StateObjectCounterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

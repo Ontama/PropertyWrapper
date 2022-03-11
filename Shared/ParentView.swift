@@ -8,8 +8,30 @@
 import SwiftUI
 
 struct ParentView: View {
+    @State private var counter = 0
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+            NavigationView {
+                VStack{
+                    // 押すと増えるボタン
+                Button(action: {
+                    counter += 1
+                }, label: {
+                    Text("\(counter)")
+                        .font(.title)
+                })
+                    //遷移するボタン
+                NavigationLink(destination: ChildView(counter: $counter)) {
+                    Text("child Viewへ遷移")
+                }
+                    
+                    NavigationLink(destination:         EnvironmentSample()
+                                    .environment(\.colorScheme, .dark)) {
+                        Text("EnvironmentSampleへ遷移")
+                    }
+            }.navigationBarTitle("ParentView", displayMode: .inline)
+            }
+            
     }
 }
 
