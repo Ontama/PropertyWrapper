@@ -21,14 +21,30 @@ struct ParentView: View {
                         .font(.title)
                 })
                     //遷移するボタン
-                NavigationLink(destination: ChildView(counter: $counter)) {
-                    Text("child Viewへ遷移")
-                }
+                    NavigationLink(destination: ChildView(counter: $counter)) {
+                        Text("child Viewへ遷移")
+                    }
                     
-                    NavigationLink(destination:         EnvironmentSample()
-                                    .environment(\.colorScheme, .dark)) {
+                    NavigationLink(destination:
+                                    EnvironmentSample().environment(\.colorScheme, .dark)) {
                         Text("EnvironmentSampleへ遷移")
                     }
+                    
+                    NavigationLink(destination:
+                                    SwitchColorView()){
+                        Text("SwitchColorViewへ遷移")
+                    }
+                    
+                    NavigationLink(destination:
+                                    ObservedObjectTestView()){
+                        Text("ObservedObjectTestViewへ遷移")
+                    }
+                    
+                    NavigationLink(destination:
+                                    EnvironmentObjectParentView()){
+                        Text("EnvironmentObjectParentViewへ遷移")
+                    }
+                    
             }.navigationBarTitle("ParentView", displayMode: .inline)
             }
             

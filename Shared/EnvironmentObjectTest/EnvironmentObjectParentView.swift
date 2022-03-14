@@ -9,9 +9,9 @@ import SwiftUI
 
 // 親view
 struct EnvironmentObjectParentView: View {
-    @StateObject static private var dataSource = DataSource()
+    @StateObject private var dataSource = DataSource()
     var body: some View {
-        EnvironmentObjectChildView()
+        EnvironmentObjectChildView().environmentObject(dataSource)
     }
 }
 

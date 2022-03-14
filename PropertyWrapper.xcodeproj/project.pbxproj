@@ -184,9 +184,9 @@
 		EAC3553727DB0C78009E192B /* SwitchColor */ = {
 			isa = PBXGroup;
 			children = (
+				EAC3553027DB0944009E192B /* SwitchColorView.swift */,
 				EAC3552A27DB08B5009E192B /* StateObjectCounterView.swift */,
 				EAC3552D27DB0904009E192B /* ObservedObjcetCounterView.swift */,
-				EAC3553027DB0944009E192B /* SwitchColorView.swift */,
 			);
 			path = SwitchColor;
 			sourceTree = "<group>";
