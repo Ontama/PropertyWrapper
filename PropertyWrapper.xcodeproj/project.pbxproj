@@ -35,6 +35,9 @@
 		EAC3553527DB0C5A009E192B /* ObservedObjectTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC3553327DB0C5A009E192B /* ObservedObjectTestView.swift */; };
 		EAC3553927DB0CA8009E192B /* ObservedObjectTestChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC3553827DB0CA8009E192B /* ObservedObjectTestChildView.swift */; };
 		EAC3553A27DB0CA8009E192B /* ObservedObjectTestChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC3553827DB0CA8009E192B /* ObservedObjectTestChildView.swift */; };
+		EAC3553E27DEE30C009E192B /* EnvironmentObjectParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC3553D27DEE30C009E192B /* EnvironmentObjectParentView.swift */; };
+		EAC3554027DEE316009E192B /* EnvironmentObjectChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC3553F27DEE316009E192B /* EnvironmentObjectChildView.swift */; };
+		EAC3554427DEE32A009E192B /* EnvironmentObjectGrandChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC3554327DEE32A009E192B /* EnvironmentObjectGrandChildView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +79,9 @@
 		EAC3553027DB0944009E192B /* SwitchColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchColorView.swift; sourceTree = "<group>"; };
 		EAC3553327DB0C5A009E192B /* ObservedObjectTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedObjectTestView.swift; sourceTree = "<group>"; };
 		EAC3553827DB0CA8009E192B /* ObservedObjectTestChildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedObjectTestChildView.swift; sourceTree = "<group>"; };
+		EAC3553D27DEE30C009E192B /* EnvironmentObjectParentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectParentView.swift; sourceTree = "<group>"; };
+		EAC3553F27DEE316009E192B /* EnvironmentObjectChildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectChildView.swift; sourceTree = "<group>"; };
+		EAC3554327DEE32A009E192B /* EnvironmentObjectGrandChildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectGrandChildView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +138,7 @@
 				EAC3552727DB0825009E192B /* DataSource.swift */,
 				EAC3553727DB0C78009E192B /* SwitchColor */,
 				EAC3553B27DB0D5A009E192B /* ObservedObjectTest */,
+				EAC3553C27DEE2EB009E192B /* EnvironmentObjectTest */,
 				EAC354E427DAF789009E192B /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -191,6 +198,16 @@
 				EAC3553827DB0CA8009E192B /* ObservedObjectTestChildView.swift */,
 			);
 			path = ObservedObjectTest;
+			sourceTree = "<group>";
+		};
+		EAC3553C27DEE2EB009E192B /* EnvironmentObjectTest */ = {
+			isa = PBXGroup;
+			children = (
+				EAC3553D27DEE30C009E192B /* EnvironmentObjectParentView.swift */,
+				EAC3553F27DEE316009E192B /* EnvironmentObjectChildView.swift */,
+				EAC3554327DEE32A009E192B /* EnvironmentObjectGrandChildView.swift */,
+			);
+			path = EnvironmentObjectTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -355,9 +372,12 @@
 				EAC3553127DB0944009E192B /* SwitchColorView.swift in Sources */,
 				EAC3550C27DAF78A009E192B /* ContentView.swift in Sources */,
 				EAC3553427DB0C5A009E192B /* ObservedObjectTestView.swift in Sources */,
+				EAC3554427DEE32A009E192B /* EnvironmentObjectGrandChildView.swift in Sources */,
 				EAC3552227DAFA60009E192B /* ChildView.swift in Sources */,
+				EAC3554027DEE316009E192B /* EnvironmentObjectChildView.swift in Sources */,
 				EAC3553927DB0CA8009E192B /* ObservedObjectTestChildView.swift in Sources */,
 				EAC3551F27DAF7F4009E192B /* ParentView.swift in Sources */,
+				EAC3553E27DEE30C009E192B /* EnvironmentObjectParentView.swift in Sources */,
 				EAC3552527DB0151009E192B /* EnvironmentSample.swift in Sources */,
 				EAC3550A27DAF78A009E192B /* PropertyWrapperApp.swift in Sources */,
 				EAC3552E27DB0904009E192B /* ObservedObjcetCounterView.swift in Sources */,
